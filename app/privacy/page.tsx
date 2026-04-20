@@ -22,8 +22,8 @@ export default function PrivacyPage() {
         </p>
         <p>
           If you have questions about how we handle your data, email{" "}
-          <a href="mailto:security@optionswheelpro.com" style={{ color: "var(--accent)" }}>
-            security@optionswheelpro.com
+          <a href="mailto:contact@regularguylabs.com" style={{ color: "var(--accent)" }}>
+            contact@regularguylabs.com
           </a>.
         </p>
       </div>

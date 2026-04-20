@@ -25,9 +25,9 @@ export default function SupportPage() {
         <div className="support-grid">
           <div className="support-card">
             <div className="support-card__icon">{Icon.mail({ width: 22, height: 22 })}</div>
-            <h3>Email us</h3>
-            <p>The fastest path to a real answer. We usually reply within a few hours during the week.</p>
-            <a className="link" href="mailto:help@optionswheelpro.com">help@optionswheelpro.com</a>
+            <h3>Send a message</h3>
+            <p>The fastest path to a real answer. A human reads every note — usually same-day during the week.</p>
+            <a className="link" href="#support-form">Open the form →</a>
           </div>
           <div className="support-card">
             <div className="support-card__icon">{Icon.book({ width: 22, height: 22 })}</div>
@@ -39,13 +39,13 @@ export default function SupportPage() {
             <div className="support-card__icon">{Icon.heart({ width: 22, height: 22 })}</div>
             <h3>Feature requests</h3>
             <p>If something is missing, tell us. We build for real traders — not the App Store charts.</p>
-            <a className="link" href="mailto:ideas@optionswheelpro.com">ideas@optionswheelpro.com</a>
+            <a className="link" href="#support-form">Share an idea →</a>
           </div>
           <div className="support-card">
             <div className="support-card__icon">{Icon.shield({ width: 22, height: 22 })}</div>
             <h3>Security &amp; privacy</h3>
             <p>Report a security concern responsibly, or ask how we handle your data.</p>
-            <a className="link" href="mailto:security@optionswheelpro.com">security@optionswheelpro.com</a>
+            <a className="link" href="#support-form">Report via form →</a>
           </div>
         </div>
 

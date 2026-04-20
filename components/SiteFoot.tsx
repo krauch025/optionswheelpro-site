@@ -24,7 +24,7 @@ export function SiteFoot() {
           </div>
           <div className="site-foot__col">
             <h4>Company</h4>
-            <a href="mailto:hello@optionswheelpro.com">hello@optionswheelpro.com</a>
+            <a href="mailto:contact@regularguylabs.com">contact@regularguylabs.com</a>
             <Link href="/privacy">Privacy</Link>
             <Link href="/terms">Terms</Link>
           </div>

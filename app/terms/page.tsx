@@ -22,8 +22,8 @@ export default function TermsPage() {
         </p>
         <p>
           Formal terms will be published here prior to launch. Questions in the meantime go to{" "}
-          <a href="mailto:hello@optionswheelpro.com" style={{ color: "var(--accent)" }}>
-            hello@optionswheelpro.com
+          <a href="mailto:contact@regularguylabs.com" style={{ color: "var(--accent)" }}>
+            contact@regularguylabs.com
           </a>.
         </p>
       </div>

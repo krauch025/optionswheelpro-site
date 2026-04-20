@@ -33,17 +33,17 @@ export function SupportForm() {
         form.reset();
       } else {
         const payload = await res.json().catch(() => ({}));
-        setErrorMsg(payload?.error || "Something went wrong. Try emailing help@optionswheelpro.com.");
+        setErrorMsg(payload?.error || "Something went wrong. Try emailing contact@regularguylabs.com.");
         setState("error");
       }
     } catch {
-      setErrorMsg("Network error. Try emailing help@optionswheelpro.com.");
+      setErrorMsg("Network error. Try emailing contact@regularguylabs.com.");
       setState("error");
     }
   }
 
   return (
-    <form className="support-form" onSubmit={onSubmit}>
+    <form id="support-form" className="support-form" onSubmit={onSubmit}>
       <h2>Or send us a note right here.</h2>
       <p>We&apos;ll get back to you at the email you provide.</p>
 
