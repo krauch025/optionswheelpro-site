@@ -352,6 +352,17 @@ p  { font: var(--fw-regular) var(--fz-body)/var(--lh-normal) var(--font-sans); m
 .phone-tab--active { color: var(--accent); }
 .phone-tab svg { width: 18px; height: 18px; }
 
+/* Real-screenshot variant: image fills the frame; no notch (the screenshot
+   already includes the iOS status bar). */
+.phone-frame--shot { display: block; padding: 0; background: #0D1F1A; }
+.phone-frame--shot::before { content: none; }
+.phone-frame--shot > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .pf-card {
   background: var(--surface-1);
   border: 1px solid var(--card-border);

@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
+import { PhoneAnalytics } from "@/components/PhoneAnalytics";
 import { PhoneDashboard } from "@/components/PhoneDashboard";
 import { PhoneNewTrade } from "@/components/PhoneNewTrade";
 import { PhoneWheels } from "@/components/PhoneWheels";
 
 export const metadata: Metadata = {
   title: "Screenshots",
-  description: "A tour through Options Wheel Pro — Dashboard, New Trade, and Wheels view.",
+  description: "A tour through Options Wheel Pro — Analytics, Dashboard, New Trade, and Wheels.",
 };
 
 export default function ScreenshotsPage() {
@@ -24,9 +25,14 @@ export default function ScreenshotsPage() {
       <div className="container">
         <div className="gallery">
           <div className="gallery__item">
+            <PhoneAnalytics />
+            <h3>Analytics</h3>
+            <p>Win rate, monthly trends, best and worst trades, and a breakdown by ticker. The scoreboard for the wheel.</p>
+          </div>
+          <div className="gallery__item">
             <PhoneDashboard />
             <h3>Dashboard</h3>
-            <p>Premium collected, open positions, and the trailing 30-day shape of your performance. Your home screen.</p>
+            <p>Premium collected, open positions, and the trailing shape of your performance. Your home screen.</p>
           </div>
           <div className="gallery__item">
             <PhoneNewTrade />

@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { AppStoreBtn } from "@/components/AppStoreBtn";
+import { PhoneAnalytics } from "@/components/PhoneAnalytics";
 import { PhoneDashboard } from "@/components/PhoneDashboard";
 import { PhoneNewTrade } from "@/components/PhoneNewTrade";
 import { PhoneWheels } from "@/components/PhoneWheels";
@@ -47,7 +48,7 @@ export default function Home() {
               </div>
             </div>
             <div className="hero-editorial__phone">
-              <PhoneDashboard />
+              <PhoneAnalytics />
             </div>
           </div>
         </div>
