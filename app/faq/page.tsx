@@ -25,7 +25,7 @@ const FAQ = [
       },
       {
         q: "Does it connect to my brokerage?",
-        a: "Not yet. We're deliberately starting with manual entry — it keeps the app fast, private, and free of OAuth and data-sharing agreements. Brokerage import is on the roadmap.",
+        a: "Not via a live API. The app is intentionally OAuth-free — your broker password never touches it. What we do support today is CSV import: drop a transaction export from Robinhood, Schwab, or Fidelity and the app auto-detects your wheels, matches the trades, and lets you preview everything before importing.",
       },
     ],
   },
@@ -35,7 +35,6 @@ const FAQ = [
     items: [
       { q: "Is there a subscription?", a: "No. Pro is a single, one-time In-App Purchase. You buy it once and you have it forever, including future updates." },
       { q: "What does the free version include?", a: "Unlimited trade logging, the Dashboard, history, and up to three active wheels. It's a real app, not a crippled trial." },
-      { q: "Can I try Pro before I buy it?", a: "Yes. New users get a 14-day Pro preview when they first open the app — no payment required. When it ends, everything falls back to Free cleanly." },
       { q: "Does Family Sharing work?", a: "Yes. If you buy Pro, anyone in your Family Sharing group gets it too." },
       { q: "What if I bought Pro and I get a new phone?", a: "Sign in with the same Apple ID and tap \u201CRestore purchases\u201D in Settings. Pro comes back for free." },
     ],

@@ -18,7 +18,7 @@ const FEATURES = [
   { icon: Icon.repeat, title: "Wheels view", body: "See every cycle on every ticker: CSP → assignment → CC → called away → reset. At a glance." },
   { icon: Icon.calc, title: "Smart premium math", body: "Per-trade, per-day, APY, collateral efficiency. Tabular numerals. No clever flourishes." },
   { icon: Icon.chart, title: "The long slow line", body: "Premium collected over time. The chart that matters more than any single position." },
-  { icon: Icon.bell, title: "Quiet reminders", body: "Expiry this week. Assignment risk crossing your threshold. Nothing more." },
+  { icon: Icon.bell, title: "Quiet reminders", body: "A push notification the day before any trade expires. Nothing more." },
   { icon: Icon.lock, title: "Your data stays on your device", body: "No accounts, no sync by default. iCloud sync is optional and end-to-end encrypted." },
 ];
 
