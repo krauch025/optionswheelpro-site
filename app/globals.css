@@ -859,3 +859,4 @@ p  { font: var(--fw-regular) var(--fz-body)/var(--lh-normal) var(--font-sans); m
 }
 .reading h2 { font-size: 22px; font-weight: 600; margin: 32px 0 12px; letter-spacing: -0.01em; }
 .reading p { color: var(--fg-2); font-size: 16px; line-height: 1.7; margin-bottom: 16px; }
+.reading__meta { font-size: 13px; color: var(--fg-3, var(--fg-2)); margin-bottom: 32px; }
