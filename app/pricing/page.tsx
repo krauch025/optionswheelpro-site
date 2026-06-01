@@ -65,10 +65,10 @@ export default function PricingPage() {
             features={[
               { label: "Unlimited manual trade logging" },
               { label: "Dashboard with YTD & lifetime premium" },
-              { label: "Up to 3 active wheels" },
+              { label: "Wheels view — full cycle visualization" },
+              { label: "Up to 3 wheels" },
               { label: "History of closed trades" },
               { label: "Light & dark mode" },
-              { label: "Advanced Wheels view", muted: true },
               { label: "CSV & spreadsheet export", muted: true },
               { label: "iCloud sync across devices", muted: true },
             ]}
@@ -76,18 +76,15 @@ export default function PricingPage() {
           <Plan
             featured
             name="Pro"
-            price="$24.99"
+            price="$14.99"
             unit="once, yours forever"
             pitch="Unlock the full app with one purchase. No recurring charges — ever."
             cta="Unlock Pro"
             features={[
               { label: "Everything in Free" },
               { label: "Unlimited wheels" },
-              { label: "Wheels view — whole cycles at a glance" },
-              { label: "Assignment probability & break-even math" },
               { label: "CSV & spreadsheet export" },
               { label: "iCloud sync (end-to-end encrypted)" },
-              { label: "Custom trade tags & notes" },
               { label: "Priority support" },
             ]}
           />
@@ -110,12 +107,12 @@ export default function PricingPage() {
             <tbody>
               <tr><td>Manual trade logging</td><td className="y">{Icon.check()}</td><td className="y">{Icon.check()}</td></tr>
               <tr><td>Dashboard &amp; history</td><td className="y">{Icon.check()}</td><td className="y">{Icon.check()}</td></tr>
-              <tr><td>Active wheels</td><td>3</td><td>Unlimited</td></tr>
-              <tr><td>Wheels view</td><td className="n">{Icon.xmark()}</td><td className="y">{Icon.check()}</td></tr>
-              <tr><td>Assignment probability</td><td className="n">{Icon.xmark()}</td><td className="y">{Icon.check()}</td></tr>
+              <tr><td>Wheels view</td><td className="y">{Icon.check()}</td><td className="y">{Icon.check()}</td></tr>
+              <tr><td>Analytics &amp; charts</td><td className="y">{Icon.check()}</td><td className="y">{Icon.check()}</td></tr>
+              <tr><td>CSV import (Robinhood, Schwab, Fidelity)</td><td className="y">{Icon.check()}</td><td className="y">{Icon.check()}</td></tr>
+              <tr><td>Wheels</td><td>Up to 3</td><td>Unlimited</td></tr>
               <tr><td>CSV / spreadsheet export</td><td className="n">{Icon.xmark()}</td><td className="y">{Icon.check()}</td></tr>
               <tr><td>iCloud sync (E2E)</td><td className="n">{Icon.xmark()}</td><td className="y">{Icon.check()}</td></tr>
-              <tr><td>Custom tags &amp; notes</td><td className="n">{Icon.xmark()}</td><td className="y">{Icon.check()}</td></tr>
               <tr><td>Priority support</td><td className="n">{Icon.xmark()}</td><td className="y">{Icon.check()}</td></tr>
             </tbody>
           </table>
