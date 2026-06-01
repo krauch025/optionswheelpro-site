@@ -34,7 +34,7 @@ const FAQ = [
     blurb: "Straightforward answers about the one-time Pro unlock.",
     items: [
       { q: "Is there a subscription?", a: "No. Pro is a single, one-time In-App Purchase. You buy it once and you have it forever, including future updates." },
-      { q: "What does the free version include?", a: "Unlimited trade logging, the Dashboard, history, and up to three active wheels. It's a real app, not a crippled trial." },
+      { q: "What does the free version include?", a: "Unlimited trade logging, the full Dashboard, Wheels view, Analytics, and CSV import from Robinhood, Schwab, or Fidelity — capped at three wheels total. It's a real app, not a crippled trial." },
       { q: "Does Family Sharing work?", a: "Yes. If you buy Pro, anyone in your Family Sharing group gets it too." },
       { q: "What if I bought Pro and I get a new phone?", a: "Sign in with the same Apple ID and tap \u201CRestore purchases\u201D in Settings. Pro comes back for free." },
     ],
@@ -53,9 +53,9 @@ const FAQ = [
     heading: "Platform & devices",
     blurb: "What we support today and what's coming.",
     items: [
-      { q: "What devices are supported?", a: "iPhone running iOS 17 or later. The app is optimized for iPhone screens from the Mini up through the Pro Max." },
-      { q: "Is there an iPad version?", a: "iPad support is on the roadmap. The iPhone app runs on iPad today via the iPhone-app compatibility mode." },
-      { q: "What about Android or the web?", a: "Not planned. We're staying focused on doing the iPhone version well." },
+      { q: "What devices are supported?", a: "iPhone and iPad on iOS / iPadOS 17 or later. The app uses adaptive SwiftUI layouts, so it scales cleanly from iPhone Mini up through iPad Pro — with extra cards visible on the larger screen." },
+      { q: "Is there a Mac version?", a: "Not yet released. The codebase compiles for macOS but we want to test it properly before promising it. If you'd like Mac support, let us know — it shapes our priorities." },
+      { q: "What about Android or the web?", a: "Not planned. We're staying focused on doing the Apple version well." },
     ],
   },
 ];
