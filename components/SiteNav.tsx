@@ -35,7 +35,7 @@ export function SiteNav() {
           ))}
           <ThemeToggle />
           <a className="site-nav__cta site-nav__links--keep" href="#download">
-            Download
+            Coming Soon
           </a>
         </div>
       </div>

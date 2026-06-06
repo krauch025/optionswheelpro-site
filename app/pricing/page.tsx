@@ -61,7 +61,7 @@ export default function PricingPage() {
             price="$0"
             unit="forever"
             pitch="Everything you need to log trades and watch the premium accumulate."
-            cta="Download free"
+            cta="Coming Soon"
             features={[
               { label: "Unlimited manual trade logging" },
               { label: "Dashboard with YTD & lifetime premium" },

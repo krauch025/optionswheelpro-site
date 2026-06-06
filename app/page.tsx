@@ -171,7 +171,7 @@ export default function Home() {
         <div className="container">
           <div className="final-cta">
             <h2>A calmer way to run the wheel.</h2>
-            <p>Free to download. A single one-time unlock for Pro features. No subscriptions, ever.</p>
+            <p>Wheelright is launching soon on the App Store. Free to start. A single one-time unlock for Pro features. No subscriptions, ever.</p>
             <div className="final-cta__ctas">
               <AppStoreBtn />
               <Link href="/pricing" className="ow-btn ow-btn--ghost ow-btn--lg">See what&apos;s included</Link>
