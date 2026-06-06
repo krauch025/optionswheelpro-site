@@ -34,7 +34,7 @@ const FAQ = [
     blurb: "Straightforward answers about the one-time Pro unlock.",
     items: [
       { q: "Is there a subscription?", a: "No. Pro is a single, one-time In-App Purchase. You buy it once and you have it forever, including future updates." },
-      { q: "What does the free version include?", a: "Unlimited trade logging, the full Dashboard, Wheels view, Analytics, and CSV import from Robinhood, Schwab, or Fidelity — capped at three wheels total. It's a real app, not a crippled trial." },
+      { q: "What does the free version include?", a: "Unlimited trade logging, the full Dashboard, Wheels view, Analytics, and CSV import from Robinhood, Schwab, or Fidelity, capped at two wheels total. It's a real app, not a crippled trial." },
       { q: "Does Family Sharing work?", a: "Yes. If you buy Pro, anyone in your Family Sharing group gets it too." },
       { q: "What if I bought Pro and I get a new phone?", a: "Sign in with the same Apple ID and tap \u201CRestore purchases\u201D in Settings. Pro comes back for free." },
     ],

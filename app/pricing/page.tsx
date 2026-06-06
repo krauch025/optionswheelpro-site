@@ -66,7 +66,7 @@ export default function PricingPage() {
               { label: "Unlimited manual trade logging" },
               { label: "Dashboard with YTD & lifetime premium" },
               { label: "Wheels view — full cycle visualization" },
-              { label: "Up to 3 wheels" },
+              { label: "Up to 2 wheels" },
               { label: "History of closed trades" },
               { label: "Light & dark mode" },
               { label: "CSV & spreadsheet export", muted: true },
@@ -110,7 +110,7 @@ export default function PricingPage() {
               <tr><td>Wheels view</td><td className="y">{Icon.check()}</td><td className="y">{Icon.check()}</td></tr>
               <tr><td>Analytics &amp; charts</td><td className="y">{Icon.check()}</td><td className="y">{Icon.check()}</td></tr>
               <tr><td>CSV import (Robinhood, Schwab, Fidelity)</td><td className="y">{Icon.check()}</td><td className="y">{Icon.check()}</td></tr>
-              <tr><td>Wheels</td><td>Up to 3</td><td>Unlimited</td></tr>
+              <tr><td>Wheels</td><td>Up to 2</td><td>Unlimited</td></tr>
               <tr><td>CSV / spreadsheet export</td><td className="n">{Icon.xmark()}</td><td className="y">{Icon.check()}</td></tr>
               <tr><td>iCloud sync (E2E)</td><td className="n">{Icon.xmark()}</td><td className="y">{Icon.check()}</td></tr>
               <tr><td>Priority support</td><td className="n">{Icon.xmark()}</td><td className="y">{Icon.check()}</td></tr>
