@@ -33,12 +33,12 @@ export default function Home() {
     <>
       <section className="hero-editorial">
         <div className="container">
-          <div className="hero-editorial__eyebrow">A mindful tool for the wheel strategy</div>
+          <div className="hero-editorial__eyebrow">A focused tracker for the wheel strategy</div>
           <div className="hero-editorial__grid">
             <div>
-              <h1>Run the wheel<br />with a <em>clear head</em>,<br />not a crowded one.</h1>
+              <h1>Run the options wheel.<br /><em>Run it right.</em></h1>
               <p className="hero-editorial__lede">
-                Options Wheel Pro is a quiet, thoughtful iPhone app for tracking cash-secured puts, covered calls, and the long slow compound of premium collected.
+                Wheelright is the iPhone, iPad, and Mac app for tracking cash-secured puts, covered calls, and the long slow compound of premium collected.
               </p>
               <div className="hero-editorial__ctas">
                 <AppStoreBtn />
@@ -60,7 +60,7 @@ export default function Home() {
             <div className="section-head__kicker">How the wheel works</div>
             <h2>Four quiet moves. Repeat until you get paid.</h2>
             <p>
-              The wheel strategy is simple in theory and fiddly in practice. Options Wheel Pro makes the bookkeeping invisible so you can focus on the decisions that matter.
+              The wheel strategy is simple in theory and fiddly in practice. Wheelright makes the bookkeeping invisible so you can focus on the decisions that matter.
             </p>
           </div>
           <div className="wheel-steps">

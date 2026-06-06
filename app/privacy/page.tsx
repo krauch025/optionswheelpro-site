@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Privacy",
-  description: "How Options Wheel Pro handles your data. Short answer: we don't.",
+  description: "How Wheelright handles your data. Short answer: we don't.",
 };
 
 export default function PrivacyPage() {
@@ -21,7 +21,7 @@ export default function PrivacyPage() {
 
         <h2>1. Data collection</h2>
         <p>
-          Options Wheel Pro does not collect, transmit, or share any personal data. All trade data is stored locally on your device using Apple&apos;s SwiftData framework. There is no account to create, no login, and no server we run that touches your data.
+          Wheelright does not collect, transmit, or share any personal data. All trade data is stored locally on your device using Apple&apos;s SwiftData framework. There is no account to create, no login, and no server we run that touches your data.
         </p>
 
         <h2>2. iCloud sync</h2>

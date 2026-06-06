@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "FAQ",
-  description: "Answers about the app, pricing, privacy, and what devices Options Wheel Pro supports.",
+  description: "Answers about the app, pricing, privacy, and what devices Wheelright supports.",
 };
 
 const FAQ = [
@@ -16,12 +16,12 @@ const FAQ = [
         a: "The wheel is a patient options strategy: sell a cash-secured put on a stock you'd be happy to own. If the put expires worthless you keep the premium. If you're assigned, you own 100 shares at your strike — then you sell covered calls against them. When your shares get called away, you reset. The goal is a slow, steady stream of premium.",
       },
       {
-        q: "Who is Options Wheel Pro for?",
+        q: "Who is Wheelright for?",
         a: "Anyone running the wheel strategy on their own and wanting a clean place to record it. It's equally useful whether you're logging your first CSP or your thousandth.",
       },
       {
         q: "Does the app give me trade recommendations?",
-        a: "No. Options Wheel Pro is a logger and a mirror — it records what you do and shows you patterns. It does not pick tickers, recommend strikes, or predict outcomes. You're the trader.",
+        a: "No. Wheelright is a logger and a mirror — it records what you do and shows you patterns. It does not pick tickers, recommend strikes, or predict outcomes. You're the trader.",
       },
       {
         q: "Does it connect to my brokerage?",

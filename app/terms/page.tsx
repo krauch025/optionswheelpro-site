@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Terms",
-  description: "Terms of service for Options Wheel Pro.",
+  description: "Terms of service for Wheelright.",
 };
 
 export default function TermsPage() {
@@ -21,12 +21,12 @@ export default function TermsPage() {
 
         <h2>1. Who we are</h2>
         <p>
-          Options Wheel Pro is published by Regular Guy Labs LLC (&quot;Regular Guy Labs,&quot; &quot;we,&quot; &quot;us&quot;). By installing or using the app, you agree to these terms.
+          Wheelright is published by Regular Guy Labs LLC (&quot;Regular Guy Labs,&quot; &quot;we,&quot; &quot;us&quot;). By installing or using the app, you agree to these terms.
         </p>
 
         <h2>2. What the app is</h2>
         <p>
-          Options Wheel Pro is a trade logger. You enter or import your own option and stock trades, and the app tracks wheel cycles, premium, cost basis, and ROI for you. That&apos;s the whole product.
+          Wheelright is a trade logger. You enter or import your own option and stock trades, and the app tracks wheel cycles, premium, cost basis, and ROI for you. That&apos;s the whole product.
         </p>
 
         <h2>3. What the app is not</h2>
@@ -59,7 +59,7 @@ export default function TermsPage() {
 
         <h2>7. Intellectual property</h2>
         <p>
-          The Options Wheel Pro name, logo, app code, and design are owned by Regular Guy Labs LLC. Your trade data is yours.
+          The Wheelright name, logo, app code, and design are owned by Regular Guy Labs LLC. Your trade data is yours.
         </p>
 
         <h2>8. No warranty</h2>

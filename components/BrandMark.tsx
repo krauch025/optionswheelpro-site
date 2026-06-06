@@ -2,7 +2,7 @@ type Props = { size?: number; style?: React.CSSProperties };
 
 export function BrandMark({ size = 32, style }: Props) {
   return (
-    <svg width={size} height={size} viewBox="0 0 64 64" fill="none" style={style} aria-label="Options Wheel Pro">
+    <svg width={size} height={size} viewBox="0 0 64 64" fill="none" style={style} aria-label="Wheelright">
       <circle cx="28" cy="34" r="22" fill="none" stroke="currentColor" strokeWidth="3.5" />
       <circle cx="28" cy="34" r="4" fill="currentColor" />
       <g stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">

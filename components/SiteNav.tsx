@@ -21,7 +21,7 @@ export function SiteNav() {
       <div className="site-nav__inner container">
         <Link className="site-nav__brand" href="/">
           <img src="/icon-forest-light-128.png" alt="" />
-          <span>Options Wheel Pro</span>
+          <span>Wheelright</span>
         </Link>
         <div className="site-nav__links">
           {LINKS.map((l) => (

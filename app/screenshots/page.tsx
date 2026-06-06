@@ -6,7 +6,7 @@ import { PhoneWheels } from "@/components/PhoneWheels";
 
 export const metadata: Metadata = {
   title: "Screenshots",
-  description: "A tour through Options Wheel Pro — Analytics, Dashboard, New Trade, and Wheels.",
+  description: "A tour through Wheelright — Analytics, Dashboard, New Trade, and Wheels.",
 };
 
 export default function ScreenshotsPage() {
@@ -17,7 +17,7 @@ export default function ScreenshotsPage() {
           <span className="page-intro__kicker">Screenshots</span>
           <h1>A tour through the app, one screen at a time.</h1>
           <p>
-            Every screen in Options Wheel Pro is designed to do one thing well. Here&apos;s the whole guided tour.
+            Every screen in Wheelright is designed to do one thing well. Here&apos;s the whole guided tour.
           </p>
         </div>
       </section>

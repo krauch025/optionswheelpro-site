@@ -8,8 +8,8 @@ export function SiteFoot() {
         <div className="site-foot__grid">
           <div className="site-foot__brand">
             <img src="/icon-forest-light-128.png" alt="" />
-            <div style={{ fontWeight: 600, fontSize: 15 }}>Options Wheel Pro</div>
-            <p>The calm, thorough way to run the wheel strategy. Built for patient, long-term traders.</p>
+            <div style={{ fontWeight: 600, fontSize: 15 }}>Wheelright</div>
+            <p>Run the options wheel. Run it right. Built for patient, long-term traders by Regular Guy Labs.</p>
           </div>
           <div className="site-foot__col">
             <h4>Product</h4>

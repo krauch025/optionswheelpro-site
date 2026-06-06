@@ -14,18 +14,18 @@ const newsreader = Newsreader({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://optionswheelpro.com"),
+  metadataBase: new URL("https://wheelright.app"),
   title: {
-    default: "Options Wheel Pro — The calm way to run the wheel strategy",
-    template: "%s — Options Wheel Pro",
+    default: "Wheelright — Run the options wheel. Run it right.",
+    template: "%s — Wheelright",
   },
   description:
-    "A quiet, thoughtful iPhone app for tracking cash-secured puts, covered calls, and the long slow compound of premium collected.",
+    "The iPhone, iPad, and Mac app for tracking the options wheel strategy. Log cash-secured puts and covered calls, watch your wheels cycle, and run the strategy right.",
   openGraph: {
-    title: "Options Wheel Pro",
-    description: "The calm way to run the wheel strategy.",
-    url: "https://optionswheelpro.com",
-    siteName: "Options Wheel Pro",
+    title: "Wheelright",
+    description: "Run the options wheel. Run it right.",
+    url: "https://wheelright.app",
+    siteName: "Wheelright",
     images: ["/og-image.png"],
     type: "website",
   },
